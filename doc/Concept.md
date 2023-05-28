@@ -8,4 +8,11 @@
 | Kubernetes control     | Yes / Yes              | Yes / Yes              | Yes / Yes              |
 
 
-[![asciicast](https://asciinema.org/a/587878.svg)](https://asciinema.org/a/587878)
+##Hello-world application on local kubernetes cluster
+### Minikube
+[![asciicast](https://asciinema.org/a/588081.svg)](https://asciinema.org/a/588081)
+
+### K3D
+
+### Kind
+
