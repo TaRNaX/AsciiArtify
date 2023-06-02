@@ -118,8 +118,15 @@ Disadvantages of kind:
 |                        | minikube               | kind                   | k3d                    |
 | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | supported OS           | Linux, macOS, Windows  | Linux, macOS, Windows  | Linux, macOS, Windows  |
-| supported architecture | x86-64, ARM64, ARMv7, ppc64, S390x  | Linux, macOS, Windows  | Linux, macOS, Windows  |
+| supported architecture | x86-64, ARM, ARM64     | x86-64, ARM, ARM64     | x86-64, ARM, ARM64     |
 | Docker / Podman        | Yes / Yes              | Yes / Yes              | Yes / Yes              |
-| automation             | Yes / Yes              | Yes / Yes              | Yes / Yes              |
-| monitoring             | Yes / Yes              | Yes / Yes              | Yes / Yes              |
-| Kubernetes control     | Yes / Yes              | Yes / Yes              | Yes / Yes              |
+| Automation comparison  | High                   | Moderate               | Low                    |
+| Monitoring             | Prometheus / Grafana   | Prometheus / Grafana   | Prometheus / Grafana   |
+
+### Conclusion
+
+Minikube is an excellent choice for developers who want a quick and easy way to set up a local Kubernetes cluster. It provides a high level of automation, handling most of the setup and configuration tasks, making it ideal for beginners or those looking for a hassle-free experience. However, Minikube may have limitations in scalability and production-like environments.
+
+KIND (Kubernetes IN Docker) is a good option for developers who prefer a Docker-centric approach. It allows for greater customization and control over the cluster configuration. While it requires some manual configuration and setup, it offers flexibility and replicates a production-like environment. KIND is suitable for those with intermediate Kubernetes knowledge and who require more control over the cluster.
+
+K3d is suitable for developers who are familiar with Docker and want a lightweight and customizable solution. It provides the ability to create Docker-based Kubernetes clusters with ease, making it convenient for testing and development. However, it requires more manual configuration and setup, making it suitable for developers comfortable with managing their cluster settings.
