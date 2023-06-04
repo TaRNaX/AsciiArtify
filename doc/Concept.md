@@ -121,7 +121,7 @@ Disadvantages of kind:
 | supported architecture | x86-64, ARM, ARM64     | x86-64, ARM, ARM64     | x86-64, ARM, ARM64     |
 | Docker / Podman        | Yes / Yes              | Yes / Yes              | Yes / Yes              |
 | Automation comparison  | High                   | Moderate               | Low                    |
-| Monitoring             | Dashboard  | None   | None   |
+| Monitoring             | Dashboard  | Octant   | Rancher   |
 
 ### Conclusion
 
